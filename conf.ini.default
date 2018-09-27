@@ -1,0 +1,9 @@
+[default]
+endpoint=ovh-eu
+zoneName=exemple.com
+subDomains=www,git
+
+[ovh-eu]
+application_key=my_app_key
+application_secret=my_application_secret
+consumer_key=my_consumer_key
