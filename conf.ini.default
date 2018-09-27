@@ -1,7 +1,7 @@
 [default]
 endpoint=ovh-eu
 zoneName=exemple.com
-subDomains=www,git
+subDomains=_443._tcp.www,_443._tcp.git
 
 [ovh-eu]
 application_key=my_app_key
