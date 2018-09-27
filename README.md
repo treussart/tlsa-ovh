@@ -1,7 +1,6 @@
 # tlsa-ovh
-Script for renew TLSA records.
 
-The script will look for your TLSA records in the specified zone name and then regenerate them with the available certificate. It's convenient especially with Let's Encrypt which obliges us to renew our certificates every 3 months.
+This script will look for your TLSA records in the specified zone name and then regenerate them with the available certificate. It's convenient especially with Let's Encrypt which obliges us to renew our certificates every 3 months.
 
 Requirements:
 * python3
