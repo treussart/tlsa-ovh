@@ -8,7 +8,7 @@ import os
 def set_records(list_tlsa, zoneName):
     for value in list_tlsa:
         # usage 2 for SMTP and IMAP else 0
-        port, proto, subDomain = value['subDomain'].replace('_','').split(".")
+        port, proto, subDomain = value['subDomain'].replace('_', '').split(".")
         if subDomain == 'mail' or subDomain == 'smtp' or subDomain == 'imap':
             cmd = "tlsa --create --only-rr --protocol " + proto + \
                   " --port " + port + " --usage 3 --selector 0 "\
